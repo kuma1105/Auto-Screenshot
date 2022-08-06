@@ -29,3 +29,6 @@
 
 [[C#] 타이머(Timer) 제어하기](https://m.blog.naver.com/sjwsjw80/222001872313)
 
+[[C#] 관리자 권한으로 실행하기 (Run as administrator)](https://rudalskim.tistory.com/365)
+
+[[C#] 폴더 유무체크 / 폴더 만들기 (생성하기)](https://devkimgoon.tistory.com/45)
