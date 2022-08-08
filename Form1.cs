@@ -14,23 +14,9 @@ namespace ScreenCapture
 {
     public partial class Form1 : Form
     {
-        int Year = DateTime.Now.Year;      // 년
-        int Month = DateTime.Now.Month;    // 월
-        int Day = DateTime.Now.Day;        // 일
-
-        int Hour = DateTime.Now.Hour;      // 시
-        int Minute = DateTime.Now.Minute;  // 분
-        int Second = DateTime.Now.Second;  // 초
         public Form1()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-
-
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -41,8 +27,13 @@ namespace ScreenCapture
 
         private void button3_Click(object sender, EventArgs e)
         {
-            timer1.Stop(); //타이머 중지
+            if (MessageBox.Show("종료하시겠습니까?", "종료", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                timer1.Stop(); //타이머 중지
+                Application.Exit();
+            }  
         }
+
         private void timer1_Tick(object sender, EventArgs e)
         {
             int Year = DateTime.Now.Year;      // 년
@@ -56,7 +47,7 @@ namespace ScreenCapture
             // label1에 현재날짜시간 표시, F:자세한 전체 날짜/시간
             label1.Text = DateTime.Now.ToString("F");
 
-            if ((Minute == 1 && Second == 0) || (Minute == 50 && Second == 0))
+            if ((Hour != 13) && (Minute == 21 && Second == 0) || (Minute == 21 && Second == 30))
             {
                 Screen scr = Screen.PrimaryScreen; // 주 모니터 화면
 
