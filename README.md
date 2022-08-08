@@ -15,6 +15,10 @@
 
 현재 시간이 조건에 맞는 시간과 일치할 경우 화면을 캡쳐합니다.
 
+'종료'버튼을 누르면 대화상자가 나타납니다.
+
+![종료화면01](Exit01.png)
+
 ## 참고한 사이트
 
 [[C# 팁] C# 으로 화면 캡쳐하기 (Screen Capture)](https://youtu.be/3BUFWT25L6s)
@@ -32,3 +36,11 @@
 [[C#] 관리자 권한으로 실행하기 (Run as administrator)](https://rudalskim.tistory.com/365)
 
 [[C#] 폴더 유무체크 / 폴더 만들기 (생성하기)](https://devkimgoon.tistory.com/45)
+
+[[C# 윈폼] 윈폼 폼 닫기 이벤트 (Form Closed Event) 선언하는 방법](https://afsdzvcx123.tistory.com/entry/C-%EC%9C%88%ED%8F%BC-%EC%9C%88%ED%8F%BC-%ED%8F%BC-%EB%8B%AB%EA%B8%B0-%EC%9D%B4%EB%B2%A4%ED%8A%B8-Form-Closed-Event-%EC%84%A0%EC%96%B8%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95)
+
+[C# 폼을 닫거나 종료 단추 누를 때 물어보고 처리하기](https://blog.daum.net/sualchi/13720504)
+
+[[C#] 폼 x버튼 누를 때, 폼 종료시](https://blaseed.tistory.com/244)
+
+[MessageBoxButtons 열거형](https://docs.microsoft.com/ko-kr/dotnet/api/system.windows.forms.messageboxbuttons?view=windowsdesktop-6.0)
